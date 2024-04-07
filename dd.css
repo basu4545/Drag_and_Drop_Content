@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: springgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left, #right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed navy;
+}
+.list{
+    height: 60px;
+    margin: 30px;
+    color: white;
+    background: mediumvioletred;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+.list p{
+    margin: 75px;
+}
